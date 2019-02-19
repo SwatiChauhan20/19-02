@@ -1,0 +1,99 @@
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+body *{
+  box-sizing: border-box;
+}
+textarea{
+  resize: none;
+  width: 100%;
+}
+#loader{
+  position: relative;
+}
+#loader img{
+  position: absolute;
+  top: 300px;
+  left: 45%;
+}
+#myDiv {
+  display: none;
+  background-color: lightblue;
+}
+.heading{
+  padding-top: 10px;
+}
+.heading_box h2{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 10%;
+  padding : 5px;
+  margin: 2px auto;
+}
+.custom_table{
+  font-family: sans-serif;
+  margin: 15px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.custom_table td, th {
+  text-align: left;
+  padding: 15px;
+  margin: 0px;
+}
+.custom_table th{
+  background-color: lightcoral;
+}
+.custom_table tr:nth-child(even) {
+  background-color: white;
+}
+.custom_table tr:nth-child(odd) {
+  background-color: lightpink;
+}
+.custom_table caption{
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.custom_form{
+  display: table;
+  margin: 10px auto;
+  width: 600px;
+  background-color: #f5acac;
+  border-radius: 5px;
+  padding: 20px;
+}
+.custom_form h2{
+  text-align: center;
+}
+.form_group{
+  margin-bottom: 20px;
+}
+.form_group label{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 4px;
+  font-family: sans-serif;
+  margin: 5px 0px;
+}
+.form_group button{
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 16px;
+}
+.form_input{
+  width: 100%;
+  padding: 10px 0px;
+  margin: 5px 0px;
+  display: block;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.434234;
+}

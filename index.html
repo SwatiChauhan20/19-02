@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="custom.js"></script>
+</head>
+<body onload="myFunction()">
+	<div id="loader">
+		<img src="images/loader.gif" alt="loading image">
+	</div>
+	<div style="display:none;" id="myDiv">
+		<div class="heading">
+			<table class="custom_table">
+				<caption>Employee table</caption>
+				<tr>
+					<th>FirstName</th>
+					<th>LastName</th>
+					<th>Email</th>
+				</tr>
+				<tr>
+					<td>Swati</td>
+					<td>Chauhan</td>
+					<td>chauhan.swati104@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Swati</td>
+					<td>Chauhan</td>
+					<td>chauhan.swati104@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Swati</td>
+					<td>Chauhan</td>
+					<td>chauhan.swati104@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Swati</td>
+					<td>Chauhan</td>
+					<td>chauhan.swati104@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Swati</td>
+					<td>Chauhan</td>
+					<td>chauhan.swati104@gmail.com</td>
+				</tr>
+			</table>
+		</div>
+		<form class="custom_form">
+			<h2>Employee Details</h2>
+			<div class="form_group">
+				<label>First Name</label>
+				<input type="text" class="form_input">
+			</div>
+			<div class="form_group">
+				<label>Last Name</label>
+				<input type="text"  class="form_input">
+			</div>
+			<div class="form_group">
+				<label>Email</label>
+				<input type="text" class="form_input">
+			</div>
+			<div class="form_group">
+				<label>Gender</label>
+				<input type="radio" name="gender" >Male
+				<input type="radio" name="gender" >Female
+			</div>
+			<div class="form_group">
+				<label>Technology</label><br>
+				<input id="cb" type="checkbox" name="cb1">
+				<label for="cb">java</label>
+				<input id="cb" type="checkbox" name="cb1">
+				<label for="cb">php</label>
+				<input id="cb" type="checkbox" name="cb1">
+				<label for="cb">python</label>
+			</div>
+			<div class="form_group">
+				<label>About Me</label><br>
+				<textarea  type="textarea" class="form-input" rows="5"></textarea>
+			</div>
+			<div class="form_group">
+				<button type="submit" class="form-input">Save &nbsp<img src="images/save.png" alt="save" height="20px" width="20px"></button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
